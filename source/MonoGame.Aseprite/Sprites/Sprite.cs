@@ -136,6 +136,11 @@ public class Sprite
     }
 
     /// <summary>
+    ///     Gets the texture that this <see cref="Sprite"/> is created from.
+    /// </summary>
+    public Texture2D Texture => TextureRegion.Texture;
+
+    /// <summary>
     ///     Gets the width, in pixels, of this <see cref="Sprite"/>
     /// </summary>
     /// <value>
